@@ -1,0 +1,106 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+/* 
+    Created on : 15/04/2019, 18:57:26
+    Author     : ltalorayonne
+*/
+
+@font-face {
+    font-family: Monda;
+    src: url('https://fonts.googleapis.com/css?family=Monda');
+}
+
+
+body {
+    background: url(../imagens/backlit-chiemsee-dawn-1363876.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0;
+}
+
+div.container {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    max-width: 1200px;
+    transform: translate(-50%, -50%);
+}
+
+div.principal {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border-top: solid 0.5px #a7a7a74d;
+    border-right: solid 0.5px #a7a7a74d;
+}
+
+.input-form {
+    padding: 5px;
+    width: 80%;
+    border-radius: 3px;
+    border: solid 0.5px #a9a9a9;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Monda;
+    background-color: #ffffff00;
+    color: #ffffff;
+    font-size: 13pt;
+}
+
+.bt-form {
+    position: relative;
+    padding: 5px;
+    width: auto;
+    border-radius: 3px;
+    border: solid 0.5px #a9a9a9;
+    margin-top: 5%;
+    margin-bottom: 5px;
+    font-family: Monda;
+    background-color: #ffffff00;
+    color: #ffffff8c;
+    transition: .2s;
+    font-size: 13pt;
+}
+
+.bt-form:hover {
+    background-color: #00000087;
+    transition: .2s;
+    font-size: 12.80pt;
+}
+
+button,
+input {
+    outline: none;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+    color: #ffffff8c;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #ffffff8c;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #ffffff8c;
+}
+
+:-ms-input-placeholder {
+    color: #ffffff8c;
+}
+
+h1.title {
+    font-size: 22pt;
+    color: #ffffff7a;
+}

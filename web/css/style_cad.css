@@ -1,0 +1,146 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+/* 
+    Created on : 15/04/2019, 20:09:26
+    Author     : ltalorayonne
+*/
+
+@font-face {
+    font-family: Monda;
+    src: url('https://fonts.googleapis.com/css?family=Monda');
+}
+
+
+body {
+    background: url(../imagens/backlit-chiemsee-dawn-1363876.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0;
+}
+
+
+
+div.container {
+    top: 50%;
+    left: 50%;
+    width: 30%;
+    height: auto;
+    position: absolute;
+    max-width: 1200px;
+    transform: translate(-50%, -50%);
+    border-top: solid 0.5px #a7a7a74d;
+    border-right: solid 0.5px #a7a7a74d;
+    border-radius: 10px;
+}
+
+h1.title {
+    font-size: 22pt;
+    color: #ffffff7a;
+}
+
+div.principal {
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    position: relative;
+    padding: 10px;
+    width: auto;
+    height: auto;
+}
+
+.input-form {
+    padding: 5px;
+    width: 100%;
+    border-radius: 3px;
+    border: solid 0.5px #a9a9a9;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Monda;
+    background-color: #ffffff00;
+    color: #ffffff;
+    font-size: 13pt;
+}
+
+.bt-form {
+    position: relative;
+    padding: 5px;
+    border-radius: 3px;
+    border: solid 0.5px #a9a9a9;
+    margin-top: 5%;
+    margin-bottom: 5px;
+    font-family: Monda;
+    background-color: #ffffff00;
+    color: #ffffff8c;
+    transition: .2s;
+    font-size: 13pt;
+}
+div.input-left {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+.bt-form:hover {
+    background-color: #00000087;
+    transition: .2s;
+}
+
+button,
+input {
+    outline: none;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+    color: #ffffff8c;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #ffffff8c;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #ffffff8c;
+}
+
+:-ms-input-placeholder {
+    color: #ffffff8c;
+}
+
+.recSenha-form h6 {
+    border-left: solid 1px white;
+    margin-top: 20px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.rodape-form h6:hover {
+    color: #737373;
+    transition: .2s;
+}
+
+.rodape-form h6 {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12pt;
+
+}
+.rodape-form a {
+    text-decoration: none;
+}
+
+.cad-form h6 {
+    border-right: solid 1px white;
+    margin-top: 20px;
+    padding: 5px;
+    margin-left: 5px;
+}
